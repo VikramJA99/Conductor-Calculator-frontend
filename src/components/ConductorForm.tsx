@@ -52,10 +52,27 @@ interface ConductorInput {
 }
 
 interface ResultDto {
-  r1: number;
-  x1: number;
-  r0: number;
-  x0: number;
+  fullLineR1: number;
+  fullLineX1: number;
+  fullLineR0: number;
+  fullLineX0: number;
+  fullLine: number;
+  zone1PyZ1Mag: number;
+  zone1PyZ1Ang: number;
+  zone1PyR1Real: number;
+  zone1PyX1Imag: number;
+  zone1PyZ0Mag: number;
+  zone1PyZ0Ang: number;
+  zone1PyR0Real: number;
+  zone1PyX0Imag: number;
+  zone1SecR1: number;
+  zone1SecX1: number;
+  zone1SecR0: number;
+  zone1SecX0: number;
+  zone1SecZ1Mag: number;
+  zone1SecZ1Ang: number;
+  zone1SecZ0Mag: number;
+  zone1SecZ0Ang: number;
   kr: number;
   kx: number;
   kn: number;
